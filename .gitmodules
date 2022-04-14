@@ -1,0 +1,3 @@
+[submodule "heardstone_assistant/shell"]
+	path = heardstone_assistant/shell
+	url = https://github.com/helloobaby/shell.git
