@@ -145,7 +145,14 @@
     <ClCompile Include="shell\shell\shell.cc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="shell\shell\shell.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="heardstone_assistant.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="36773.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
